@@ -35,20 +35,13 @@ python run_attack.py --attacktype 'type of the attack based on the loss function
 ```
 
 ## 📁 File Structure
-utils.py: Contains utility functions for data processing and handling.
-
-settings.py: Configuration settings for the project.
-
-train_RETAIN.py: Script to train the RETAIN model.
-
-test_RETAIN.py: Script to test the RETAIN model.
-
-retain.py: Implementation of the RETAIN model.
-
-run_attack.py: Executes the adversarial attack by calling modules from interpretation_attack.py.
-
-interpretation_attack.py: Houses our interpretation attack logic.
-
+utils.py: Contains utility functions for data processing and handling. <br>
+settings.py: Configuration settings for the project. <br>
+train_RETAIN.py: Script to train the RETAIN model. <br>
+test_RETAIN.py: Script to test the RETAIN model. <br>
+retain.py: Implementation of the RETAIN model. <br>
+run_attack.py: Executes the adversarial attack by calling modules from interpretation_attack.py. <br>
+interpretation_attack.py: Houses our interpretation attack logic. <br>
 attack_core.py: Superclass for our attack.
 
 ## 👩‍💻 Author
